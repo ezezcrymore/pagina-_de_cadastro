@@ -2,13 +2,33 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Página de Login</title>
+    <style>
+        body{
+            background-color: #f0f4f8;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            margin: 0;
+
+        }
+        .container{
+           background: #ff5b5b;
+           padding: 30px;
+           border-radius: 10px;
+           box-shadow: 0 0 20px rgb(248, 49, 255);
+        }
+    </style>
 </head>
 <body>
-    <script src=script.js" /script>
-    <input type="text">
-    <input type="text">
+    <div class="container">
+        <h2>Login</h2>
+         <input type="text" placeholder="Email"><br>
+         <input type="password" placeholder="Senha"><br>
+        <button>Login</button>
+    </div>    
 </body>
-</html>
